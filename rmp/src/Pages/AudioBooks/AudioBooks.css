@@ -1,0 +1,114 @@
+.audiobooks-page {
+    height: 100vh;
+    max-width: 350px;
+    margin: auto;
+}
+
+.audio-nav-title {
+    padding: 20px 10px;
+}
+
+.audio-book-container {
+    height: calc(100% - 132px)
+}
+
+@media screen and (max-width:600px) {
+    .audiobooks-page {
+        width: 100%;
+    }
+}
+.audio-books-scroller{
+    height:100%;
+    overflow-y:scroll;
+}
+.audio-book-item-container {
+    color: black;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 10px 0;
+}
+
+.audio-book-item {
+    background-color: #D9D9D9;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 7px;
+}
+
+.audio-book-img {
+    height: 80px;
+    width: 80px;
+    background: wheat;
+    border-radius: 10px;
+}
+
+.audio-book-title {
+    font-weight: bold;
+}
+
+.audio-book-detail {
+    width: 100%;
+}
+
+.aadhar-upload-box {
+    background-color: #D9D9D9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    border-radius: 20px;
+    height: 100px;
+    gap: 10px;
+}
+
+.audio-book-price-conatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.audio-price-amt {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.audio-price-label {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+
+    /* 200% */
+}
+
+.book-item-commision-container {
+    background-color: rgba(217, 217, 217, 0.6);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.book-item-commision-amt {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+}

@@ -1,0 +1,31 @@
+.dashboard-nav{
+    background-color: #010827 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    flex: 25%;
+}
+.nav-icon{
+    margin: 10px auto;
+    border-radius:5px;
+    background-color: #000412;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 0;
+    padding: 5px;
+}
+
+
+.dashboard-nav-links{
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+    .dashboard-nav{
+        display: none;
+    }
+}

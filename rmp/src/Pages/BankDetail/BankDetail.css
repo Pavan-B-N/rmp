@@ -1,0 +1,30 @@
+.bank-detail-page{
+    background-color: #0B0D13;
+    height: 100vh;
+    max-width: 500px;
+    margin: auto;
+}
+.bank-detail-nav-title{
+    padding: 20px;
+}
+.bank-page-container{
+    height:calc(100vh - 132px)
+}
+@media screen and (max-width:600px) {
+    .bank-detail-page{
+        width: calc(100% - 20px);
+        margin:0 10px;
+    }
+}
+.fieldset{
+    padding: 6px;
+    border-radius: 5px;
+    border:2px solid #C0CBF4;
+    margin-bottom: 10px;
+    color: #49454F;
+    font-weight: bolder;
+}
+.bank-detail{
+    display: flex;
+    gap: 10px;
+}

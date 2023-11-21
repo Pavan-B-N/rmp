@@ -1,0 +1,119 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    line-height: 2;
+    padding-left: 5px;
+
+}
+
+ul li::before {
+    position: absolute;
+    content: '';
+    left: -20px;
+    top: 0;
+    border-left: 2px solid grey;
+    border-bottom: 2px solid grey;
+    width: 20px;
+    height: 1em;
+}
+
+ul li::after {
+    position: absolute;
+    content: "";
+    left: -20px;
+    bottom: 0;
+    border-left: 2px solid grey;
+    width: 15px;
+    height: 100%;
+}
+
+ul li:last-child::after {
+    display: none;
+}
+
+.referral-page {
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+}
+
+@media screen and (max-width:600px) {
+    .referral-page {
+        width: 100%;
+    }
+}
+
+.referral-page-titlebar {
+    padding: 10px;
+}
+
+.referral-screen-container {
+    height: calc(100% - 70px - 40px - 80px);
+}
+
+.referrals-overflow-container {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.custom-accordian {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+
+}
+
+.custom-accordian-summary {
+    background-color: #D9D9D9B2;
+    margin-bottom: 0px;
+}
+
+.custom-accordian-detail {
+    background: #D9D9D9;
+    color: black;
+    margin-top: 0px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.no-referrals {
+    text-align: center;
+    padding: 10px;
+}
+
+.invite-other-referrals-btn {
+    width: 312px;
+    height: 50px;
+    border-radius: 100px;
+    background: #E6EBFF;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+    color: #6750A4;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.referrals-count{
+    background:rgb(161, 160, 160);
+    padding:5px;
+    border-radius: 50%;
+    height: 20px;
+    width:20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.referrals-container-details{
+    display: flex;
+    gap: 5px;
+}

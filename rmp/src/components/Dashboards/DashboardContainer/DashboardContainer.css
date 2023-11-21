@@ -1,0 +1,33 @@
+.dashboard-content{
+    background-color:#000412;
+    flex: 50%;
+}
+.verticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.dashboard-menu{
+    background-color:#010827;
+    padding: 10px;
+    height: 25px;
+}
+
+.wallet{
+    border: 2px solid white;
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.wallet-top,.wallet-detail{
+    display: flex;
+    justify-content:space-around;
+    font-size: 1.2rem;
+}

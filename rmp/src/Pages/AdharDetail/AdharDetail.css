@@ -1,0 +1,29 @@
+.aadhar-details-page{
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;   
+}
+.aadhar-title-nav{
+    padding: 20px 10px;
+}
+.aadhar-page-container{
+    height:calc(100vh - 132px);
+}
+@media screen and (max-width:600px) {
+    .aadhar-details-page {
+        width: 100%;
+    }
+}  
+.doc-preview{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+    object-fit: contain;
+    margin: 10px auto;
+}
+.doc-preview img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

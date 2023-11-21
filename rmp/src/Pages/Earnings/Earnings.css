@@ -1,0 +1,543 @@
+.earningss-page {
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+}
+
+@media screen and (max-width:600px) {
+    .earningss-page {
+        width: 100%;
+    }
+}
+
+.earnings-page-conatiner {
+    /* height: calc(100vh - 132px) !important; */
+    overflow: hidden !important;
+}
+
+
+.earnings-welcome-msg {
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 10px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.earnings-overflow-container {
+    height: 100%;
+    /* overflow-y: auto; */
+}
+
+.earnings-overflow-container::-webkit-scrollbar {
+    display: none;
+}
+
+.earning-page-card {
+    border-radius: 10px;
+    /* background: #4D5A89; */
+    background-color: #E6EBFF;
+    color: black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.earnings-count {
+    background-color: #879EFD;
+    width: max-content;
+    float: right;
+    padding: 5px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.earnings-deatil {
+    font-family: Montserrat;
+}
+
+.earning-page-details {
+    padding: 20px;
+}
+
+.earning-page-card .detail {
+    height: 84px;
+}
+
+.earning-card-divider {
+    border: 1px solid black
+}
+
+.earning-page-details .detail-title {
+    margin-bottom: 20px;
+}
+
+.earning-page-details .detail-amount {
+    /* color: #FFF; */
+    color: black;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.earnings-progress-container {
+    width: calc(100% - 40px);
+    margin: 5px 20px;
+}
+
+.earning-progress {
+    width: 100%;
+    height: 4px;
+    border-radius: 58px;
+}
+
+.earning-progress::-webkit-progress-bar {
+    background: #36343B;
+}
+
+.earning-progress::-webkit-progress-value {
+    background: #D0BCFF;
+    /* Fill color */
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-shortcuts-title {
+    color: #454545;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.earning-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.earning-action-item {
+    /* background-color: #D9D9D9; */
+    background-color: #E6EBFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 53px;
+}
+
+.my-earnings-title {
+    padding: 10px;
+    color: #0B0D13;
+}
+
+.earnings-deatil {
+    background-color: #4D5A89;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.earning-amount {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.arrow-up-icon {
+    background-color: #7BDDB4;
+    color: black;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.earnings-page-leader-img {
+    width: 24px;
+    height: 24px;
+}
+
+.earnings-page-leader-title {
+    border-radius: 10px;
+    border: 1px solid #000;
+    /* background: #D9D9D9; */
+    background-color: #E6EBFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #454545;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.earnings-page-leader-title .title {
+    height: 100%;
+}
+
+.leaderboard-accordion-item {
+    margin: 10px 0;
+    border: 2px solid #83899C;
+}
+
+.leaderboard-details-container {
+    display: grid;
+    grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.total-purchases {
+    border-radius: 10px;
+    background: #4D5A89;
+}
+
+.total-purchases .title {
+    color: #C0CBF4;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    height: max-content;
+    margin-bottom: 10px;
+}
+
+.people-puchased {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.people-purchased-number {
+    color: #879EFD;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.46px;
+}
+
+.commission-title {
+    width: 100%;
+    color: #C0CBF4;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    margin: 5px 0;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.commission-amount {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    margin-bottom: 20px;
+}
+
+.total-sign-ups {
+    border-radius: 10px;
+    background: #626775;
+}
+
+.total-sign-up-title {
+    color: #C0CBF4;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* .circular-progress {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle {
+    position: absolute;
+    content: "";
+    width: calc(100px - 30px);
+    height: calc(100px - 30px);
+    border-radius: 50%;
+    background-color: red;
+}
+
+.percentage {
+    position: relative;
+    font-size: var(--font-size);
+    color: rgb(0, 0, 0, 0.8);
+} */
+
+/* .circular-progress {
+    width: 101.851px;
+    height: 101.851px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+    margin: auto;
+    background-color: red;
+}
+.inner-circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color:yellow;
+    height: 100px;
+    width: 10px;
+    
+} */
+.circular-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background:
+        radial-gradient(closest-side, white 82%, transparent 80% 100%),
+        conic-gradient(#5388D8 75%, #FFFFFF 0);
+
+}
+
+.circular-progress::before {
+    content: attr(content);
+    color: black !important;
+    width: 100%;
+    text-align: center
+}
+
+/* .circular-progress::before {
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #5388D8;
+} */
+
+.signup-progress {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.signed-up-indicator,
+.referer-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.signed-up-indicator {
+    background-color: #5388D8;
+}
+
+.signup-summary {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 5px auto;
+    width: 100px;
+}
+
+.analytics {
+    border-radius: 10px;
+    background: #626775;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.analytics-title {
+    color: #C0CBF4;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.analytics-detail-item {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.analytics-month {
+    background-color: #6c838c;
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    width: 50px;
+}
+
+.link-to-text {
+    color: #454545;
+}
+
+.circular-progress-mui {
+    height: 100px;
+    color: white;
+}
+
+.carasouel-container {
+    overflow: hidden;
+    background: linear-gradient(121deg, #808BB7 31.13%, rgba(255, 255, 255, 0.53) 100%);
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    border: 1.5px solid;
+    height: 180px;
+}
+.carasouel-title{
+    margin-bottom: 15px;
+}
+.carasouel-title,
+.carasouel-content,
+.carasouel-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.pie {
+    /* background-color: red; */
+    margin-right: -75px;
+}
+
+.carasouel-content {
+    justify-content: space-around !important;
+
+}
+
+.carasouel-title-desc {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #2B2B2B;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    text-wrap: nowrap;
+
+    /* 171.429% */
+}
+
+
+.carasouel-details {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    text-align: start;
+    gap: 5px;
+}
+
+.people-counter {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.46px;
+}
+
+.view-btn {
+    border-radius: 50px;
+    background: #C0CBF4;
+    width: 120px;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carasouel-img{
+    background-color: #E6EBFF;
+    color: #9FB1FD;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding:5px;
+    object-fit: contain;
+}
+.carasouel-content-bar{
+    margin-top: -50px;
+}
+.carousel{
+    margin-top: 15px;
+}

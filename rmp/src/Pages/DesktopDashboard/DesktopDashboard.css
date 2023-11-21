@@ -1,0 +1,511 @@
+.desktop-dashboard-nav {
+    height: 100vh;
+    background: #9FB1FD;
+    width: 300px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .desktop-dashboard-nav-bar {
+        display: none;
+    }
+
+    .desktop-dashboard-nav {
+        width: auto
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .desktop-dashboard-menu-icon {
+        display: inline !important;
+    }
+}
+
+.nav-title {
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(271deg, #3C3D42 0.35%, #83899C 97.55%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.divider {
+    height: 1px;
+    background: #3b3a3a;
+    margin: 10px 0;
+    outline: none;
+}
+
+.menu-title {
+    color: #0B0D13;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    text-align: left;
+    margin-left: 5px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.nav-item:hover {
+    background: #6E8EFB;
+    color: white;
+}
+
+.people-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: #DAE1FE;
+    color: black;
+    margin: 10px;
+}
+
+/* home */
+.desktop-dashboard-home {
+    display: flex;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.desktop-dashboard-main-container {
+    width: 100%;
+}
+
+.desktop-dashboard-titlebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.desktop-dashboard-uname {
+    color: #F3F5FF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.desktop-dashboard-uname .uname {
+    color: #9FB1FD;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.desktop-dashboard-home-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* grid-template-rows: 1.5fr 2fr; */
+    /* background-color: yellow; */
+    height: 100%;
+}
+
+.dashboard-first-row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: stretch;
+    grid-template-columns: 1fr 2fr; */
+    padding: 10px;
+    /* justify-content: space-around; */
+    /* background-color: yellow; */
+    gap: 30px;
+}
+
+.dashboard-wallet {
+    height: 100%;
+    margin-top: 10px;
+    min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.dashboard-wallet-detail-conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-wallet-detail {
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-around;
+    background: #DAE1FE;
+    padding: 15px;
+    color: black;
+    gap: 50px;
+    width: 300px;
+}
+
+.vertical-line {
+    width: 2px;
+    background-color: black;
+}
+
+.dashboard-account-details {
+    display: flex;
+    width: 300px;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background: #DAE1FE;
+    color: black;
+}
+
+.dashboard-account-details img {
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #AFBEFE;
+    padding: 15px;
+}
+
+.dashboard-account-details-info {
+    width: 100%;
+
+
+}
+
+.dashboard-account-details-info-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #050508;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 200% */
+}
+
+.title-heading {
+    color: #FFF;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 85.714% */
+    border-left: 3px solid #7B90E6;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.desktop-dashboard-analytics {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+
+}
+
+.analytics-bar-chart {
+    border-radius: 20px;
+    background: #DAE1FE;
+    width: 80%;
+    max-width: 750px;
+    margin-left: 20px;
+    height: 65%;
+    max-height: 300px;
+}
+
+.desktop-dashboard-menu-icon {
+    display: none;
+
+}
+
+.right {
+    grid-row: span 2;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.desktop-dashboard-total-signups,
+.desktop-dashboard-goals,
+.desktop-dashboard-transactions {
+    border-radius: 20px;
+    background: #DAE1FE;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.righ-item-title {
+    border-radius: 0px 6px 6px 0px;
+    background: #AFBEFE;
+    border-left: 8px solid #7B90E6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    color: #000;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.desktop-signup-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: #050508;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.linear-progress-mui {
+    height: 10px;
+}
+
+.earning-progress-linear {
+    width: 100%;
+    height: 5px !important;
+    border-radius: 50px;
+    margin: 5px 0;
+}
+
+.earning-progress-linear::-webkit-progress-bar {
+    background: #8F9092 !important;
+}
+
+.earning-progress-linear::-webkit-progress-value {
+    background: #4A578B !important;
+    /* Fill color */
+}
+
+.progress-start-label-linear,
+.progress-end-label-linear {
+    border-radius: 35px;
+    background: #879EFD;
+    padding: 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.desktop-transaction-item {
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.desktop-transaction-title {
+    color: #050508;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* 150% */
+}
+
+.desktop-transaction-amt {
+    color: #00C471;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+}
+
+/* Wallet Page */
+.dashboard-withdraw-amt {
+    border-radius: 20px;
+    background: #DAE1FE;
+    width: 300px;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background: #DAE1FE;
+    color: black;
+}
+
+.desktop-withdraw-money-detail {
+    display: flex;
+    justify-content: space-around;
+    color: #050508;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 85.714% */
+    padding: 10px;
+    align-items: center;
+}
+
+.desktop-withdraw-money-detail button {
+    border-radius: 50px;
+    background: #FF5F5F;
+    padding: 5px 20px;
+    color: #050508;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.bank-row-wallet {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.bank-status {
+    border-radius: 20px;
+    background: #DAE1FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 109.091% */
+    margin: 10px;
+    padding: 5px;
+}
+
+.small-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.tab-layout {
+    border-radius: 20px;
+    background: #DAE1FE;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+/* Share */
+.desktop-share-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.desktop-audio-container {
+    width: 330px;
+    height: max-content;
+    border-radius: 20px;
+    margin: 10px auto;
+    height: auto;
+}
+
+.desktop-commision-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dashboard-audio-book-item {
+    height: 120px;
+}
+
+.desktop-leadership-month {
+    width: 300px;
+    margin: 10px;
+}
+
+.desktop-leadership-list {
+    width: 500px;
+    border-radius: 20px;
+    background: #DAE1FE;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 142.857% */
+    margin: 10px;
+}
+.desktop-leadership-list-table{
+    width: 100%;
+}
+.desktop-leadership-list-table td{
+    border-bottom: 1px solid #000;
+}
+.desktopside-title{
+    color: #FFF;
+text-align: start;
+font-family: Montserrat;
+font-size: 1.3rem;
+font-style: italic;
+font-weight: 600;
+line-height: 40px; /* 100% */
+margin-left: 10px;
+}
+.leaderboard-content-desktop{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content:space-around;
+}
+.desktop-leadership-badge{
+    width: 500px;
+    height: 370px;
+    margin-top: 10px;
+}
+.active-page{
+    background: #66759f;
+    color: white;
+}

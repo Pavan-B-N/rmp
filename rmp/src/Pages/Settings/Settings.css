@@ -1,0 +1,30 @@
+.settings-page{
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+}
+@media screen  and (max-width:600px){
+    .settings-page{
+        width:100%;
+    }
+}
+
+.side-title{
+    color: rgb(60, 58, 58);
+}
+.google-translate-container{
+    background-color:rgb(210, 210, 179);
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.google-translate-container select{
+    width: 80%;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+}
+.google-translate-container option{
+    font-size: 1rem;
+}

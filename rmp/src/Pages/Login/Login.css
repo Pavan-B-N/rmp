@@ -1,0 +1,146 @@
+.login-page {
+    overflow: hidden;
+    width: 312px;
+    margin: auto;
+    padding: 40px 20px;
+    height: calc(100vh - 80px);
+    /* background-color: rgb(80, 63, 232); */
+}
+
+.login-welcome-msg {
+    /* font-size: 1.6rem; */
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.login-page-app-title {
+    color: #C0CBF4;
+}
+
+.login-from {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    /* gap between title and the form */
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-input {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    border-radius: 4px 4px 0px 0px;
+    width: calc(312px - 20px);
+}
+
+.enter-phone-msg {
+    display: block;
+    /* font-size: 1.2rem; */
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.msg-highlight {
+    color: #879EFD;
+}
+
+@media screen and (max-width:600px) {
+    .login-page {
+        width: calc(100% - 40px)
+    }
+
+    .phone-input {
+        width: calc(100% - 40px);
+    }
+}
+
+/* VerifyOTP */
+.verify-page {
+    overflow: hidden;
+    width: 350px;
+    margin: auto;
+    height: calc(100vh - 20px);
+    padding: 10px;
+    position: relative;
+    /* background-color: rgb(80, 63, 232); */
+}
+
+.verify-form {
+    padding: 0 20px;
+}
+
+.title-msg {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.verify-top-desc-msg {
+    color: #FFFFFF91;
+}
+
+.verification-number {
+    padding: 20px 0;
+}
+
+.otp-container {
+    padding: 10px 0;
+}
+
+@media screen and (max-width:600px) {
+    .verify-page {
+        width: calc(100% - 20px);
+    }
+
+    .verify-form {
+        width: calc(100% - 20px);
+    }
+}
+
+#recaptcha-container {
+    margin: 10px 0;
+}
+
+.input-text-field {
+    background-color: transparent;
+    color: white !important;
+}
+
+.otp-verified {
+    background-color: #454545;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+    height: 350px;
+    width: calc(100% - 20px);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
+}
+
+.otp-verified .verified {
+    color: #879EFD;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+@media screen and (min-width: 768px) {
+    #verify-otp-btn{
+        bottom:70px;
+    }
+}

@@ -1,0 +1,9 @@
+.screen-content {
+    background-color: #83899C;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    height: calc(100% - 70px - 40px);
+    width: calc(100% - 40px);
+}
