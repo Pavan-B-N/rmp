@@ -1,1 +1,1 @@
-# Distributer-React
+# Rapid Mind Power
